@@ -9,3 +9,10 @@
 	*Từ lớp con người như vậy tạo ra các đối tượng cụ thể khi chạy chương trình như: Đàn ông, Phụ nữ*
 	
 **Các class được định nghĩa dùng từ khóa class sẽ tìm hiểu sau, ví dụ:**
+
+```
+public class ClassName {
+    //... Định nghĩa các thuộc tính
+    //... Định nghĩa các phương thức
+}
+```
