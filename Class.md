@@ -109,8 +109,7 @@ static int sum(int val1, int val2) {
 ```
 ###### Chú ý trong định nghĩa phương thức, kiểu trả về phải được định nghĩa trước tên phương thức, như trên đó là kiểu int
 
-```Từ khóa static ở tên phương thức, cho biết phương thức này có thể gọi ở bất kỳ đâu mà không cần tạo ra đối tượng lớp chứa phương thức đó.
-Giờ là ví dụ sử dụng phương thức trên```
+```Từ khóa static ở tên phương thức, cho biết phương thức này có thể gọi ở bất kỳ đâu mà không cần tạo ra đối tượng lớp chứa phương thức đó. Giờ là ví dụ sử dụng phương thức trên```
 
 ```
 class MyClass {
@@ -124,6 +123,9 @@ class MyClass {
         System.out.println(x);
     }
 }
-// Outputs "7"
+
 ```
+
 ###### giá trị trả về của phương thức đã được gán vào biến x.
+
+```Từ khóa static ở tên phương thức, cho biết phương thức này có thể gọi ở bất kỳ đâu mà không cần tạo ra đối tượng lớp chứa phương thức đó. Giờ là ví dụ sử dụng phương thức trên```
