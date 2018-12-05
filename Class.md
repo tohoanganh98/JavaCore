@@ -37,7 +37,8 @@ class MyClass {
 ```
 ###### Trong ví dụ trên, đã định nghĩa một phương thức sayHello(), phương thức đó được hàm main() gọi để in ra lời chào mừng. Như vậy để gọi phương thức để thi hành code chỉ cần viết tên phương thức và truyền các tham số nếu cần thiết. Một phương thức có thể gọi bao nhiêu lần là tùy mục đích.
 
-**Tham số của phương thức**
+#Tham số của phương thức
+
 **DeFine**
 
 ```Bạn có thể tạo phương thức chấp nhận các tham số truyền vào. Tham số được mô tả trong dấu cặp ngoặc (), các tham số mô tả bởi kiểu dữ liệu và tên tham số, nhiều tham số thì cách nhau bởi dấu phẩy.```
