@@ -35,4 +35,32 @@ class MyClass {
 }
 //Xuất ra: "Hello World!"
 ```
-## Trong ví dụ trên, đã định nghĩa một phương thức sayHello(), phương thức đó được hàm main() gọi để in ra lời chào mừng. Như vậy để gọi phương thức để thi hành code chỉ cần viết tên phương thức và truyền các tham số nếu cần thiết. Một phương thức có thể gọi bao nhiêu lần là tùy mục đích.
+###### Trong ví dụ trên, đã định nghĩa một phương thức sayHello(), phương thức đó được hàm main() gọi để in ra lời chào mừng. Như vậy để gọi phương thức để thi hành code chỉ cần viết tên phương thức và truyền các tham số nếu cần thiết. Một phương thức có thể gọi bao nhiêu lần là tùy mục đích.
+
+**Tham số của phương thức**
+**DeFine**
+
+```Bạn có thể tạo phương thức chấp nhận các tham số truyền vào. Tham số được mô tả trong dấu cặp ngoặc (), các tham số mô tả bởi kiểu dữ liệu và tên tham số, nhiều tham số thì cách nhau bởi dấu phẩy.```
+
+**Ví dụ phương thức sau poem() có một tham số kiểu String có tên là atr:**
+
+```
+class MyClass {
+
+    static void poem(String atr) {
+        System.out.println("Java " + atr);
+    }
+
+    public static void main(String[ ] args) {
+        poem("is Love");
+        poem("is Life");
+        poem("keeps you busy as bees in a hive");
+    }
+
+}
+
+//Xuât ra:
+//Java is Love
+//Java is Life
+//Java keeps you busy as bees in a hive
+```
