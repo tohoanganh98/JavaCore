@@ -99,3 +99,31 @@ Cúc*/
 ###### Ví dụ trên, tham số names như là mảng truyền vào phương thức. Số phần tử quyết định khi truyền tham số cho hàm, như trên là 5 phần tử.
 
 ## Giá trị trả về của phương thức
+
+**Một phương thức có thể có giá trị trả về, sử dụng từ khóa return hãy xem phương thức sau:**
+
+```
+static int sum(int val1, int val2) {
+    return val1 + val2;
+}
+```
+###### Chú ý trong định nghĩa phương thức, kiểu trả về phải được định nghĩa trước tên phương thức, như trên đó là kiểu int
+
+```Từ khóa static ở tên phương thức, cho biết phương thức này có thể gọi ở bất kỳ đâu mà không cần tạo ra đối tượng lớp chứa phương thức đó.
+Giờ là ví dụ sử dụng phương thức trên```
+
+```
+class MyClass {
+
+    static int sum(int val1, int val2) {
+        return val1 + val2;
+    }
+
+    public static void main(String[ ] args) {
+        int x = sum(2, 5);
+        System.out.println(x);
+    }
+}
+// Outputs "7"
+```
+###### giá trị trả về của phương thức đã được gán vào biến x.
