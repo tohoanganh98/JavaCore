@@ -35,3 +35,4 @@ class MyClass {
 }
 //Xuất ra: "Hello World!"
 ```
+###### Trong ví dụ trên, đã định nghĩa một phương thức sayHello(), phương thức đó được hàm main() gọi để in ra lời chào mừng. Như vậy để gọi phương thức để thi hành code chỉ cần viết tên phương thức và truyền các tham số nếu cần thiết. Một phương thức có thể gọi bao nhiêu lần là tùy mục đích.
