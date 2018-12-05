@@ -37,7 +37,7 @@ class MyClass {
 ```
 ###### Trong ví dụ trên, đã định nghĩa một phương thức sayHello(), phương thức đó được hàm main() gọi để in ra lời chào mừng. Như vậy để gọi phương thức để thi hành code chỉ cần viết tên phương thức và truyền các tham số nếu cần thiết. Một phương thức có thể gọi bao nhiêu lần là tùy mục đích.
 
-# Tham số của phương thức
+## Tham số của phương thức
 
 **DeFine**
 
@@ -65,3 +65,37 @@ class MyClass {
 //Java is Life
 //Java keeps you busy as bees in a hive
 ```
+## Tham số tùy chọn
+
+**DeFine**
+
+```Java có cách khai báo tham số mà khi gọi phương thức số lượng giá trị truyền vào là tùy thích cách nhau bởi dấu phảy ,. Khai báo kiểu tham số này sử dụng ký hiệu ba chấm ... (Kiểu-dữ-liệu ... tên-biến).```
+
+```
+class MyClass {
+
+    static void printnames(String ... names) {
+
+        int soten = names.length;
+        System.out.println("Số tên là:  " + soten);
+
+        for (String name : names) {
+            System.out.println(name);
+        }
+    }
+
+    public static void main(String[ ] args) {
+        printnames("Thu", "Tâm", "Dũng", "Long","Cúc");
+    }
+}
+/*IN RA
+Số tên là:  5
+Thu
+Tâm
+Dũng
+Long
+Cúc*/
+```
+###### Ví dụ trên, tham số names như là mảng truyền vào phương thức. Số phần tử quyết định khi truyền tham số cho hàm, như trên là 5 phần tử.
+
+## Giá trị trả về của phương thức
