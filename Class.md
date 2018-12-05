@@ -18,6 +18,7 @@ public class ClassName {
 ```
 # Method in Java(Phương Thức)
 **DeFine**
+
 ```Các phương thức định nghĩa ứng xử của lớp. Một phương thức là một tập hợp các khối lệnh (code) để thi hành một chức năng nào đó. Ví dụ như System.out.println() là một phương thức. Bạn có thể định nghĩa phương thức riêng của bạn, thi hành với một nhiệm vụ cụ thể nào đó.```
 
 **Hãy xem ví dụ sau:**
